@@ -1,10 +1,10 @@
-# douyin-blogger-kb
+# douyin-Michael-DaMaiGe-skill
 
 抖音博主视频知识库 Skill，**开箱即用**。随包内置博主「Michael大麦哥」的知识库，你直接问该博主视频里的内容就能得到基于原文的回答，无需提供抖音链接。也支持输入任意抖音博主分享链接（`v.douyin.com/xxx`）或主页地址，自动解析 → 浏览主页 → 抓取前 N 个视频文字 → 建立新的本地知识库。
 
 ## 安装
 
-把本目录 `douyin-blogger-kb` 放到 agent 的 `.user_skills/` 目录下（例如 `<workspace>/.user_skills/douyin-blogger-kb/`），重启会话即可被识别。
+把本目录 `douyin-Michael-DaMaiGe-skill` 放到 agent 的 `.user_skills/` 目录下（例如 `<workspace>/.user_skills/douyin-Michael-DaMaiGe-skill/`），重启会话即可被识别。
 
 ## 使用
 
@@ -14,7 +14,7 @@
 ## 目录结构
 
 ```
-douyin-blogger-kb/
+douyin-Michael-DaMaiGe-skill/
 ├── SKILL.md                    # 技能主流程（建立 / 问答）
 ├── scripts/
 │   └── resolve_douyin.py       # 分享短链 → sec_uid 解析（纯 HTTP）
