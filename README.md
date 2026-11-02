@@ -4,7 +4,24 @@
 
 ## 安装
 
-把本目录 `douyin-Michael-DaMaiGe-skill` 放到 agent 的 `.user_skills/` 目录下（例如 `<workspace>/.user_skills/douyin-Michael-DaMaiGe-skill/`），重启会话即可被识别。
+任选一种方式：
+
+**方式一：下载压缩包（推荐，点开即下载）**
+
+1. 打开 Release 发布页：`https://github.com/qwer3021/douyin-Michael-DaMaiGe-skill/releases/tag/v1.0.0`
+   或直接点开下载直链：`https://github.com/qwer3021/douyin-Michael-DaMaiGe-skill/releases/download/v1.0.0/douyin-Michael-DaMaiGe-skill-v1.0.0.zip`
+2. 解压 zip，得到文件夹 `douyin-Michael-DaMaiGe-skill`；
+3. 把该文件夹放到 agent 的 `.user_skills/` 目录下（例如 `<workspace>/.user_skills/douyin-Michael-DaMaiGe-skill/`）；
+4. 重启会话即可被识别，开箱即用。
+
+**方式二：Git 克隆**
+
+```bash
+cd <你的workspace>/.user_skills
+git clone https://github.com/qwer3021/douyin-Michael-DaMaiGe-skill.git
+```
+
+重启会话即可被识别。
 
 ## 使用
 
